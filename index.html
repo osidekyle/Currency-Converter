@@ -7,18 +7,25 @@
     <link rel="stylesheet" href="style.scss">
 </head>
 <body>
-    <label for="currencies">Choose a currency to convert from</label>
-
-
+    <label for="currenciesFrom">Choose a currency to convert from</label>
     <select  id="currenciesFrom">
-
     </select>
-    <label for="currencies">Choose a currency to convert to</label>
 
-
+    <label for="currenciesTo">Choose a currency to convert to</label>
     <select  id="currenciesTo">
-
     </select>
+
+    
+    <label for="number">Enter the value of currency you want to convert from</label>
+    <input type="text" id="number">
+     <input  id="calcButton" type="submit" value="Convert">
+    
+
+
+    <div id="output">
+
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
