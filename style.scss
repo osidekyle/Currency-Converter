@@ -8,7 +8,7 @@ $font-size:150%;
 $font: 'Roboto';
 
 .enter{
-    font-size:150%;
+    font-size:$font-size;
 }
 .selecting{
     width:75%;
