@@ -14,8 +14,12 @@ body {
   font-family: "Roboto";
 }
 
-label, #output {
+label {
   font-size: 150%;
+}
+
+#output {
+  font-size: 300%;
 }
 
 .box {

@@ -3,7 +3,7 @@
     -ms-transform: $property;
     transform: $property;
 }
-
+$output-size:300%;
 $font-size:150%;
 $font: 'Roboto';
 
@@ -22,8 +22,11 @@ select{
 body{
     font-family: $font;
 }
-label,#output{
+label{
     font-size: $font-size;
+}
+#output{
+    font-size: $output-size;
 }
 .box{
     background:lightblue;
