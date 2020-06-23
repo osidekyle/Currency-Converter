@@ -1,3 +1,29 @@
-#fromContainer, #toContainer{
-    background:lightblue
+@mixin transform($property){
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
 }
+
+$font-size:150%;
+$font: 'Roboto';
+
+body{
+    font-family: $font;
+}
+label,#output{
+    font-size: $font-size;
+}
+.box{
+    background:lightblue;
+    width:120%;
+    padding:15% 0;
+    text-align:center;
+    border-radius:5%;
+    transition:ease .4s all
+}
+
+.box:hover{
+    @include transform(scale(1.03));
+}
+
+

@@ -1,4 +1,23 @@
-#fromContainer, #toContainer {
+body {
+  font-family: "Roboto";
+}
+
+label, #output {
+  font-size: 150%;
+}
+
+.box {
   background: lightblue;
+  width: 120%;
+  padding: 15% 0;
+  text-align: center;
+  border-radius: 5%;
+  -webkit-transition: ease .4s all;
+  transition: ease .4s all;
+}
+
+.box:hover {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 /*# sourceMappingURL=style.css.map */

@@ -38,8 +38,8 @@ function calculate(){
         let convertFrom=res[currenciesFrom.value];
         let convertTo = res[currenciesTo.value];
         let conversion=convertTo/convertFrom;
-        output.innerHTML = `<h3>${number.value} in ${currenciesFrom.value}
+        output.innerHTML = `<p id="res" class="mt-5">${number.value} in ${currenciesFrom.value}
                             is ${Math.round((number.value*conversion)*100)/100}
-                            in ${currenciesTo.value}`
+                            in ${currenciesTo.value}</p>`
     })
 }
