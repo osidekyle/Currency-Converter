@@ -7,6 +7,18 @@
 $font-size:150%;
 $font: 'Roboto';
 
+.enter{
+    font-size:150%;
+}
+.selecting{
+    width:75%;
+    
+}
+select{
+    text-align:center;
+}
+
+
 body{
     font-family: $font;
 }
