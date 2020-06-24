@@ -10,13 +10,8 @@ $font: 'Roboto';
 .enter{
     font-size:$font-size;
 }
-.selecting{
-    width:75%;
-    
-}
-select{
-    text-align:center;
-}
+
+
 
 
 body{
@@ -30,8 +25,8 @@ label{
 }
 .box{
     background:lightblue;
-    width:120%;
-    padding:15% 0;
+    padding:3% 3%;
+    width:35%;
     text-align:center;
     border-radius:5%;
     transition:ease .4s all
