@@ -5,23 +5,28 @@
 }
 $output-size:300%;
 $font-size:150%;
-$font: 'Roboto';
-
+$font: "Roboto";
+$title: 500%;
+#mainContainer{
+    padding-left:5%;
+}
+.ting{
+    font-size:500%;
+    text-align: center;
+}
 .enter{
     font-size:$font-size;
 }
-
-
-
-
 body{
-    font-family: $font;
+    font-family: $font !important;
 }
 label{
     font-size: $font-size;
+    text-align: center;
 }
 #output{
     font-size: $output-size;
+    text-align:center;
 }
 .box{
     background:lightblue;

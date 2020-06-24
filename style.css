@@ -1,17 +1,28 @@
+#mainContainer {
+  padding-left: 5%;
+}
+
+.ting {
+  font-size: 500%;
+  text-align: center;
+}
+
 .enter {
   font-size: 150%;
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto" !important;
 }
 
 label {
   font-size: 150%;
+  text-align: center;
 }
 
 #output {
   font-size: 300%;
+  text-align: center;
 }
 
 .box {
