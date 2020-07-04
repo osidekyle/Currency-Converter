@@ -11,21 +11,24 @@
  
 </head>
 <body>
-
+<!--Main Container-->
 <div id="mainContainer" class="container">
+    <!--Title-->
     <div class="row justify-content-center">
         <div class="col-12">
         <h1 class="title">Currency Converter</h1>
     </div>
     </div>
     
+<!--Input Containers-->
 <div class="row justify-content-around  mt-5">
+    <!--From Container-->
     <div class="col-4 box">
     <label for="currenciesFrom">Choose a currency to convert from</label>
     <select class="custom-select" id="currenciesFrom">
     </select>  
     </div>
-
+    <!--To Container-->
     <div class="col-4 box">
     <label for="currenciesTo">Choose a currency to convert to</label>
     <select class="custom-select" id="currenciesTo">
@@ -34,17 +37,22 @@
 </div>
 
 
-    
+    <!--Number entry area-->
+
+    <!--Number entry label-->
 <div class="row justify-content-center mt-5">
     <div id="numberContainer">
     <label for="number">Enter the value of currency you want to convert</label>
     </div>
 </div>
+
+    <!--Text Input and Button-->
 <div class="row justify-content-center input-group enter mt-5">
     <input type="text" id="number">
      <input  class="input-group-append btn btn-success" id="calcButton" type="submit" value="Convert">
 </div>
 
+<!--Output Area-->
 <div class="row justify-content-center">
     <div id="output">
 </div>
