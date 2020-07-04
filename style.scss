@@ -1,12 +1,17 @@
+//Box hover animation
 @mixin transform($property){
     -webkit-transform: $property;
     -ms-transform: $property;
     transform: $property;
 }
+
+//Variables
 $output-size:300%;
 $font-size:150%;
 $font: "Roboto";
 $title: 500%;
+
+//Main
 #mainContainer{
     padding-left:5%;
 }
@@ -28,6 +33,7 @@ label{
     font-size: $output-size;
     text-align:center;
 }
+//For two boxes
 .box{
     background:lightblue;
     padding:3% 3%;
